@@ -11,7 +11,7 @@ import os
 app = Flask(__name__)
 
 # OpenAI API key setup
-openai.api_key = os.getenv('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')
+openai.api_key = os.getenv('Hidden Api Key')
 
 # Initialize the model and tokenizer (optional)
 model_name = "distilgpt2"
